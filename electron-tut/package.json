@@ -1,7 +1,7 @@
 {
   "name": "electron-tut",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Electron tutorial application.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     "make": "electron-forge make"
   },
   "keywords": [],
-  "author": "",
+  "author": "naman",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
