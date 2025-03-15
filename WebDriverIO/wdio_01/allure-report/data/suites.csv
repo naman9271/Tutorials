@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11617","First Test","","Fri Mar 14 13:41:31 IST 2025","passed","Fri Mar 14 13:41:43 IST 2025","","Demo Test","",""
-"","8044","should login with valid credentials","","Fri Mar 14 08:04:47 IST 2025","passed","Fri Mar 14 08:04:55 IST 2025","","My Login application","",""
