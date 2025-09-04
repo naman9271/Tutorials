@@ -946,19 +946,12 @@
   resolved "https://registry.yarnpkg.com/@types/ms/-/ms-2.1.0.tgz#052aa67a48eccc4309d7f0191b7e41434b90bb78"
   integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
-"@types/node@*", "@types/node@^22.13.4":
-  version "22.13.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.10.tgz#df9ea358c5ed991266becc3109dc2dc9125d77e4"
-  integrity sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==
+"@types/node@*", "@types/node@^22.13.4", "@types/node@^22.7.7":
+  version "22.18.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.0.tgz#9e4709be4f104e3568f7dd1c71e2949bf147a47b"
+  integrity sha512-m5ObIqwsUp6BZzyiy4RdZpzWGub9bqLJMvZDD0QMXhxjqMHMENlj+SqF5QxoUwaQNFe+8kz8XM8ZQhqkQPTgMQ==
   dependencies:
-    undici-types "~6.20.0"
-
-"@types/node@^20.9.0":
-  version "20.17.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.17.24.tgz#2325476954e6fc8c2f11b9c61e26ba6eb7d3f5b6"
-  integrity sha512-d7fGCyB96w9BnWQrOsJtpyiSaBcAYYr75bnK6ZRjDbql2cGLj/3GsL5OYmLPNq76l7Gf2q4Rv9J2o6h5CrD9sA==
-  dependencies:
-    undici-types "~6.19.2"
+    undici-types "~6.21.0"
 
 "@types/plist@^3.0.1":
   version "3.0.5"
@@ -1929,13 +1922,13 @@ electron-vite@^3.0.0:
     magic-string "^0.30.17"
     picocolors "^1.1.1"
 
-electron@^34.2.0:
-  version "34.3.3"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-34.3.3.tgz#2979329d182a195756bfbf6e5687a835cd65a2ec"
-  integrity sha512-7m1FiO1mwc1K/UqqnnkG7Ik/kAngDzmLfHwcl+xaWgCQ+Sts9rlEqzOh6g1GHhDqebrbs4bO/aU+NDi32fCciQ==
+electron@^35.7.5:
+  version "35.7.5"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-35.7.5.tgz#294a4aebb2ad2a884de730c410f2358d061e8d53"
+  integrity sha512-dnL+JvLraKZl7iusXTVTGYs10TKfzUi30uEDTqsmTm0guN9V2tbOjTzyIZbh9n3ygUjgEYyo+igAwMRXIi3IPw==
   dependencies:
     "@electron/get" "^2.0.0"
-    "@types/node" "^20.9.0"
+    "@types/node" "^22.7.7"
     extract-zip "^2.0.1"
 
 emoji-regex@^8.0.0:
@@ -4449,9 +4442,9 @@ tmp-promise@^3.0.2:
     tmp "^0.2.0"
 
 tmp@^0.2.0:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.2.4.tgz#c6db987a2ccc97f812f17137b36af2b6521b0d13"
-  integrity sha512-UdiSoX6ypifLmrfQ/XfiawN6hkjSBpCjhKxxZcWlUUmoXLaCKQU0bx4HF/tdDK2uzRuchf1txGvrWBzYREssoQ==
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.2.5.tgz#b06bcd23f0f3c8357b426891726d16015abfd8f8"
+  integrity sha512-voyz6MApa1rQGUxT3E+BK7/ROe8itEx7vD8/HEvt4xwXucvQ5G5oeEiHkmHZJuBO21RpOf+YYm9MOivj709jow==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -4558,15 +4551,10 @@ unbox-primitive@^1.1.0:
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
 
-undici-types@~6.19.2:
-  version "6.19.8"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
-  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
-
-undici-types@~6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.20.0.tgz#8171bf22c1f588d1554d55bf204bc624af388433"
-  integrity sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==
+undici-types@~6.21.0:
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
+  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 unique-filename@^2.0.0:
   version "2.0.1"
